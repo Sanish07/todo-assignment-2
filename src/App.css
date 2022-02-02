@@ -36,3 +36,97 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+#addBtn{
+  transition: 500ms;
+  background-color: #FF165D;
+  color : #F6F7D7;
+  border-radius: 8px;
+  border : 1.5px solid black;
+  padding: 4px 6px;
+  margin: 1rem 0;
+}
+
+#addBtn:hover{
+  transition: 300ms;
+  background-color: #11999E;
+  color : #F6F7D7;
+
+}
+
+#textInput{
+  padding: 5px 10px;
+  border: 1.8px solid black;
+}
+
+#addDiv{
+  padding: 0 15vw;
+  text-align: left;
+}
+
+#listDiv{
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: left;
+  margin: 10vh 15vw;
+  padding: 1rem 1rem;
+  font-size: 0.8rem;
+}
+
+.listItems{
+  display: block;
+  background-color: white;
+  padding: 5px 5px;
+  margin: 6px 0;
+  border : 1px solid black;
+  border-radius: 5px;
+}
+
+.listItems:hover{
+  color : #1A5F7A;
+  background-color: #FFF89A;
+  cursor: pointer;
+}
+
+.button-span{
+  margin-left: 10vw;
+}
+
+.button-span > button{
+  margin-left: 2vw;
+  border-radius: 5px;
+}
+
+.btn-done{
+  background-color: rgba(73, 201, 107,0.5) ;
+  border : 1.2px solid rgba(46, 128, 50);
+}
+
+.btn-remove{
+  background-color: rgba(219, 53, 92,0.5) ;
+  border : 1.2px solid rgba(219, 53, 92);
+}
+
+.btn-done:hover{
+  background-color: rgba(73, 201, 107) ;
+}
+
+.btn-remove:hover{
+  background-color: rgba(219, 53, 92) ;
+}
+
+.taskName{
+  display: inline-block;
+  width : 42vw; 
+  color : #116530;
+}
+
+.isDone{
+  transition: 1000ms;
+  color : #F90716;
+}
